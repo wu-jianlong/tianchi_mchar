@@ -8,6 +8,8 @@ val_annotation_path = './mchar_val.json'
 train_data = json.load(open(train_annotation_path))
 val_data = json.load(open(val_annotation_path))
 label_path = '../all_labels/'
+if not os.path.exists(label_path):
+    os.makedirs(label_path)
 for key in train_data:
     f = open(label_path+key.replace('.png', '.txt'), 'w')
     img = cv2.imread(train_image_path+key)
