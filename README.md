@@ -1,5 +1,5 @@
 # tianchi_mchar
-天池学习赛——街景字符编码识别
+## 天池学习赛——街景字符编码识别
 
 参看天池学习赛——街景字符编码识别：https://blog.csdn.net/weixin_48994268/article/details/115442639
 
@@ -26,3 +26,7 @@ yolov5训练自己的数据集（一文搞定训练）：https://blog.csdn.net/w
 5 训练train.py
 
 6 检测detect.py(已经改好)
+
+补充：yolov5原github地址：https://github.com/ultralytics/yolov5
+
+      里面的权重文件自行下载
